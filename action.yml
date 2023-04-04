@@ -22,4 +22,3 @@ runs:
       echo "INPUT_NUM=${{inputs.num}}" >> $action
     shell: bash
   - name: fetch square number' square
-     
