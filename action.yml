@@ -19,6 +19,7 @@ runs:
     shell: bash
   - name: pass inputs to shell
     run:
-      echo "INPUT_NUM=${{inputs.num}}" >> $study
+      echo "INPUT_NUM=${{inputs.num}}" >> $action
     shell: bash
-  - name: fetch s=the number' square
+  - name: fetch square number' square
+    
